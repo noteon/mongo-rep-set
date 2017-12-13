@@ -1,8 +1,8 @@
 FROM debian:jessie
 MAINTAINER Jeremy Shimko <jeremy.shimko@gmail.com>
 
-ENV MONGO_MAJOR 3.4
-ENV MONGO_VERSION 3.4.0
+ENV MONGO_MAJOR 3.6
+ENV MONGO_VERSION 3.6.0
 ENV MONGO_PACKAGE mongodb-org
 ENV GOSU_VERSION 1.10
 ENV MONGO_SCRIPTS_DIR /opt/mongo/scripts
